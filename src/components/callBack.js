@@ -24,7 +24,6 @@ function Example() {
   console.log("Parent rendered");
   return (
     <div>
-      <h2>With useCallback:</h2>
       <p>Count 1: {count1}</p>
       <p>Count 2: {count2}</p>
       <Button onClick={handleClick1} text="Button 1" />
